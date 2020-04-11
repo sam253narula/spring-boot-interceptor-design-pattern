@@ -24,7 +24,7 @@ public class SwaggerConfig {
 	private ApiInfo apiInfo() {
 		return new ApiInfoBuilder().title("Interceptor Design Pattern API Documentation").description("Interceptor Design Pattern API reference for developers")
 				.termsOfServiceUrl("http://localhost:9999/home").contact(new Contact("Interceptor Design Pattern Demonstration", "http://localhost:9999/home", "samarthnarula13@gmail.com"))
-				.license("MIT License").licenseUrl("samarthnarula13@gmail.com").version("1.0").build();
+				.license("MIT License").licenseUrl("https://opensource.org/licenses/MIT").version("1.0").build();
 
 	}
 }
